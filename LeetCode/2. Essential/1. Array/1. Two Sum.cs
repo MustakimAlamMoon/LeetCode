@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Essential
+namespace LeetCode.Essential.Array
 {
     class TwoSumClass
     {
@@ -32,7 +32,7 @@ namespace LeetCode.Essential
                 }
             }
 
-            return new int[] { };
+            return new int[] {};
         }
     }
 }
