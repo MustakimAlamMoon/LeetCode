@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Essential.Array
+﻿namespace Essential.Array
 {
     class MaximumSubarrayClass
     {

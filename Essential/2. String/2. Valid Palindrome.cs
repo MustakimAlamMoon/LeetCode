@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Essential.String
+﻿namespace Essential.String
 {
     class ValidPalindromeClass
     {
