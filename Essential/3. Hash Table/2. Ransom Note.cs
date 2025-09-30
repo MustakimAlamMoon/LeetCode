@@ -10,10 +10,7 @@
 
         public bool CanConstruct(string ransomNote, string magazine)
         {
-            if (ransomNote.Length > magazine.Length)
-            {
-                return false;
-            }
+            if (ransomNote.Length > magazine.Length) return false;
 
             var d = new Dictionary<char, int>();
 
