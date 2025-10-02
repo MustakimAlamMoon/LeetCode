@@ -10,9 +10,9 @@
 
         public IList<IList<int>> Subsets(int[] nums)
         {
-            IList<IList<int>> result = new List<IList<int>>();
-            Backtrack(result, new List<int>(), nums, 0);
-            return result;
+            IList<IList<int>> res = new List<IList<int>>();
+            Backtrack(res, new List<int>(), nums, 0);
+            return res;
         }
 
         private void Backtrack(IList<IList<int>> res, List<int> tempList, int[] nums, int start)
