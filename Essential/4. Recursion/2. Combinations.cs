@@ -25,9 +25,7 @@
                 for (int j = i; j <= n; j++)
                 {
                     l.Add(j);
-
                     Helper(n, k, j + 1, l);
-
                     l.RemoveAt(l.Count - 1);
                 }
         }
