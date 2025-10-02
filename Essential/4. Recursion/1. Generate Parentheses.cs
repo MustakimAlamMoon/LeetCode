@@ -1,9 +1,9 @@
 ﻿namespace Essential.Recursion
 {
     class GenerateParenthesesClass
-    { 
+    {
         /// <summary>
-        /// Method-1: Backtracking (Best)
+        /// Method-1: Recursive Backtracking (Best)
         /// TC: O(4^n / √n) — Catalan number growth
         /// SC: O(n) recursion + O(Cₙ × n) result storage
         /// </summary>
